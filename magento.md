@@ -80,3 +80,15 @@ Um módulo possui dois arquivos obrigatórios: 'registration.php' e 'module.xml'
 | --- | --- |
 | Conteúdo > Configuração | Configurações do tema |
 | Conteúdo > Bloco | Permite a criação de blocos |
+
+## Layout
+
+O Magento é formado, basicamente, por Layout, Container e Blocos.
+
+<p align="center" width="250">
+  <img src="https://devdocs.magento.com/common/images/layouts_block_containers_defn21.png" width=950">
+</p>
+
+(1) Layouts representam a estrutura da página através de um arquivo XML que identifica todos os containers e blocos <br>
+(2) Containers atribuem a estrutura do conteúdo a página. Exemplo de containers: header, main, footer, sidebar <br>
+(3) Blocos representam os componentes inseridos dentro dos containers. Os blocos usam templates para gerar o HTML. Exemplos de blocos são: minicart, lista de categorias, lista de produtos, etc. <br>
