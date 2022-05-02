@@ -198,13 +198,21 @@ Um módulo possui dois arquivos obrigatórios: 'registration.php' e 'module.xml'
 O Magento é formado, basicamente, por Layout, Container e Blocos.
 
 <p align="center" width="250">
-  <img src="https://devdocs.magento.com/common/images/layouts_block_containers_defn21.png" width=950">
-</p>
+  <img src="https://devdocs.magento.com/common/images/layouts_block_containers_defn21.png" width="950">
+</p
 
 (1) Layouts representam a estrutura da página através de um arquivo XML que identifica todos os containers e blocos <br>
 (2) Containers atribuem a estrutura do conteúdo a página. Exemplo de containers: header, main, footer, sidebar <br>
 (3) Blocos representam os componentes inseridos dentro dos containers. Os blocos usam templates para gerar o HTML. Exemplos de blocos são: minicart, lista de categorias, lista de produtos, etc. <br>
-                                                                                                     
+  
+## Modos de operação
+ 
+O Magento possui 3 modos de operação, sendo eles: default, developer e production.
+  
+bin/magento deploy:mode:show - mostra o modo de operação atual
+
+bin/magento deploy:mode:set {mode} - seta um novo modo
+
 ## Referências
 
 - https://calazanslucas.medium.com/magento-2-guia-de-sobrevivencia-no-frontend-parte-1-76fe6d2ffe4e
